@@ -51,5 +51,9 @@ $(document).ready(function() {
             }
         }
         renderCharacters(characters, "#characters-sections");
-    }
+        $(document).on("click", ".character", function() {
+            var name = $(this).attr("data-name");    
+            console.log(name);
+        })
+}
 });
