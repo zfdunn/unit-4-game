@@ -1,5 +1,6 @@
 body {
-    background-image: url(../images/04-Jquery_Homework_Instructions_Images_2-StarWars.jpg);
+    font-family: 'Share Tech Mono', Arial, Helvetica, sans-serif;
+    background-image: url(../images/x-wing.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
