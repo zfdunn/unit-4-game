@@ -1,0 +1,11 @@
+body {
+    background-image: url(../images/04-Jquery_Homework_Instructions_Images_2-StarWars.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section-title {font-size:200%;}
+.main-section-title{
+    font: size 300%;
+    text-align:center;
+}
