@@ -3,16 +3,17 @@ body {
     background-image: url(../images/x-wing.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
 }
 img {
     height: 100px;
     width: 150px;
     border-radius: 10px;
 }
-.section-title {font-size:200%;}
+.section-title { font-size:200%; }
 .main-section-title{
     font: size 300%;
-    text-align:center;
+    text-align: center;
 }
 
 .character {

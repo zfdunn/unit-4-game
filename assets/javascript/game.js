@@ -29,8 +29,11 @@ $(document).ready(function() {
             enemyAttackBack: 25
         }
     };
-        console.log(characters);
 
+    var currSelectedCharacter;
+
+        // console.log(characters);
+// functions below
         var renderOne = function(character, renderArea){
             var charDiv = $("div class = 'character' data-name'" + character.name + "'>");
             var charName = $("<div class='character.name'>").text(character.name);
@@ -50,10 +53,18 @@ $(document).ready(function() {
                 }
             }
         }
+        // on click event
         renderCharacters(characters, "#characters-sections");
         $(document).on("click", ".character", function() {
             var name = $(this).attr("data-name");    
             console.log(name);
         })
-}
+        if(!currSelectedCharacter) {
+            for (var key in characters) {
+                if (key !== name) {
+                    combatants.push(characters[key]);
+                }
+            }
+        }
+    }
 });
